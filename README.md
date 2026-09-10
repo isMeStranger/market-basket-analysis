@@ -37,3 +37,8 @@ Artifacts written to `out/`: `summary.json`, `descriptive_stats.csv`, `correlati
 market-basket-analysis.ipynb  # the analysis notebook
 kernel-metadata.json          # kernel runtime configuration
 ```
+
+## Dataset notes
+
+* `DAY` is a running counter of study days (1..711), not a day of the week; `WEEK_NO`
+  (1..102) is the calendar week.
