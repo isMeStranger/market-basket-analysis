@@ -13,6 +13,11 @@ The analysis covers shopping behavior in a few areas:
 * top products, top stores and top households
 * sales volume by calendar week and by hour of day
 * a correlation heatmap across the continuous variables
+* concentration and Pareto analysis, or where sales come from across products and households
+* which products get bought together, at product level and department level, measured with
+  support, confidence and lift
+* basket composition, and how coupon baskets differ from regular baskets
+* household composition segments
 
 ## Public kernel
 
@@ -27,8 +32,10 @@ kaggle kernels status salarsabry/market-basket-analysis
 kaggle kernels output salarsabry/market-basket-analysis -p out/
 ```
 
-Artifacts written to `out/`: `summary.json`, `descriptive_stats.csv`, `correlations.csv`,
-`top_products.csv`, `top_stores.csv`, `top_households.csv`, `sales_by_day.csv`,
+Artifacts written to `out/`: `summary.json`, `Summary.md`, `descriptive_stats.csv`,
+`correlations.csv`, `top_products.csv`, `top_stores.csv`, `top_households.csv`,
+`product_pairs.csv`, `product_pairs_strong.csv`, `department_pairs.csv`,
+`department_performance.csv`, `household_composition_segments.csv`, `sales_by_day.csv`,
 `sales_by_hour.csv`, plus PNG plots.
 
 ## Files
